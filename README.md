@@ -3,6 +3,9 @@
 ## About
 The Pi Calculator is a python CLI app that calculates however many digits of pi you might want.
 
+## Limits
+Unforunately the Pi Calculator can only calculate up to 1500 digits of pi.
+
 ## Installation
 
 ### Compiled Windows EXE
