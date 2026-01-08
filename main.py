@@ -1,6 +1,6 @@
 from pyscript import document
 from decimal import Decimal, getcontext
-
+#
 # output_div.innerText = digits
 
 def isNum(s):
