@@ -23,3 +23,4 @@ def getpi(event):
         pi_div.innerText = f"{mp.pi}"
     else:
         output_div.innerText = f"Please enter a valid number that is more than 1 and less than 1500."
+        pi_div.innerText = ""
