@@ -1,12 +1,12 @@
 from pyscript import document
-from mpmath import mp
+from decimal import Decimal, getcontext
 
 # output_div.innerText = digits
 
 def isNum(s):
     try:
         s = int(s)
-        if s >= 2 and s <= 1500: return True
+        if s >= 2 and s <= 5000000: return True
         else: return False
     except ValueError:
         return False
@@ -18,9 +18,11 @@ def getpi(event):
     pi_div = document.querySelector("#pi")
     
     if isNum(digits):
-        mp.dps = int(digits)
-        output_div.innerText = f"Here's your {digits} digits of pi:"
-        pi_div.innerText = f"{mp.pi}"
+        getcontext().prec = int(digits)
+        pi = sum(1/Decimal(16)**k * (Decimal(4)/(8*k+1) - Decimal(2)/(8*k+4) - Decimal(1)/(8*k+5) - Decimal(1)/(8*k+6)) for k in range(100))
+        formatteddigits = "{:,}".format(int(digits))
+        output_div.innerText = f"Here's your {formatteddigits} digits of pi:"
+        pi_div.innerText = f"{pi}"
     elif str(digits) != "":
-        output_div.innerText = f"Please enter a valid number that is more than 1 and less than 1500."
+        output_div.innerText = f"Please enter a valid number that is at least 2 and at most 5,000,000."
         pi_div.innerText = ""
