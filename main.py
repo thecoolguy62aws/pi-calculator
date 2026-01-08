@@ -18,9 +18,9 @@ def getpi(event):
     pi_div = document.querySelector("#pi")
     
     if isNum(digits):
-        mp.dps = digits
+        mp.dps = int(digits)
         output_div.innerText = f"Here's your {digits} digits of pi:"
         pi_div.innerText = f"{mp.pi}"
-    else:
+    elif str(digits) != "":
         output_div.innerText = f"Please enter a valid number that is more than 1 and less than 1500."
         pi_div.innerText = ""
