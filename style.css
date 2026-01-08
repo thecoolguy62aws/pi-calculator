@@ -74,10 +74,10 @@ body {
     margin-left: 50px;
     margin-right: 50px;
 }
-.bottom {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
+.source {
+    position:absolute;
+    top: 20px;
+    right: 20px;
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
