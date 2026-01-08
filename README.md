@@ -8,8 +8,11 @@ Unforunately the Pi Calculator can only calculate up to 1500 digits of pi.
 
 ## Installation
 
+### Webpage
+Use the GitHub hosted webpage GUI. It can be found [here]()
+
 ### Compiled Windows EXE
-Use one of the portable EXEs found in the [releases](https://github.com/thecoolguy62aws/pi-calculator/releases) section for windows. If you don't have windows, then do one of the options below.
+Use one of the portable EXEs found in the [releases](https://github.com/thecoolguy62aws/pi-calculator/releases) section for windows.
 
 ### Raw
 You may also download the source and with all files aranged how they are in the GitHub repo you should be able to run main.py to start the app.
