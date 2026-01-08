@@ -9,7 +9,7 @@ Unforunately the Pi Calculator can only calculate up to 1500 digits of pi.
 ## Installation
 
 ### Webpage
-Use the GitHub hosted webpage GUI. It can be found [here]()
+Use the GitHub hosted webpage GUI. It can be found [here](https://thecoolguy62aws.github.io/pi-calculator/). I recommend using the webpage. The webpage is the only non CLI option.
 
 ### Compiled Windows EXE
 Use one of the portable EXEs found in the [releases](https://github.com/thecoolguy62aws/pi-calculator/releases) section for windows.
