@@ -1,7 +1,7 @@
 # Pi Calculator
 
 ## About
-The Pi Calculator is a python CLI app that calculates however many digits of pi you might want.
+The Pi Calculator is a python CLI and web app that calculates however many digits of pi you might want.
 
 ## Limits
 Unforunately the Pi Calculator can only calculate up to 1500 digits of pi.
