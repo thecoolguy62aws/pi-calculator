@@ -12,17 +12,17 @@ Unforunately the Pi Calculator can only calculate up to 5,000,000 digits of pi o
 Use the GitHub hosted webpage GUI. It can be found [here](https://thecoolguy62aws.github.io/pi-calculator/). I recommend using the webpage. The webpage is the only GUI option.
 
 ### Compiled Windows EXE
-***The CLI verisons of the app are no longer recomended because they're limited to 1500 digits.***
+***The CLI verisons of the app are no longer recomended because they're limited to 1500 digits and are less user friendly.***
 
 Use one of the portable EXEs found in the [releases](https://github.com/thecoolguy62aws/pi-calculator/releases) section for windows.
 
 ### Raw
-***The CLI verisons of the app are no longer recomended because they're limited to 1500 digits.***
+***The CLI verisons of the app are no longer recomended because they're limited to 1500 digits and are less user friendly.***
 
 You may also download the source and with all files aranged how they are in the GitHub repo you should be able to run cli.py to start the app.
 
 ### Compile From Source
-***The CLI verisons of the app are no longer recomended because they're limited to 1500 digits.***
+***The CLI verisons of the app are no longer recomended because they're limited to 1500 digits and are less user friendly.***
 
 You can also use PyInstaller to compile the code to a binary yourself.
 
